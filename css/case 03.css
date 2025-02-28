@@ -1,0 +1,42 @@
+body>div:first-child{
+    background-color: grey;
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body>div>div{
+    background-color: red;
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body>div>div>div{
+    background-color: purple;
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body>div>div>div>div{
+    text-align: center;
+}
