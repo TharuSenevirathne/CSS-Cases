@@ -3,36 +3,45 @@ body{
 }
 
 body>div:first-child{
-    width: 100vw;
+    width: 70vw;
     height: 15vh;
-    background-color: black;
+    background-color: white;
     position: absolute;
     top: 0;
     left: 0;
 }
 
 body>div:nth-child(2){
+    width: 31vw;
+    height: 15vh;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+body>div:nth-child(3){
     width: 20vw;
-    height: 70vh;
-    background-color: blue;
+    height: 80vh;
+    background-color: #34068f;
     position: absolute;
     top: 104px;
     left: 0;
 }
 
-body>div:nth-child(3){
+body>div:nth-child(4){
     width: 80vw;
-    height: 70vh;
+    height: 80vh;
     background-color: green;
     position: absolute;
     top: 104px;
     right: 0;
 }
 
-body>div:nth-child(4){
+body>div:nth-child(5){
     width: 100vw;
-    height: 16vh;
-    background-color: deeppink;
+    height: 8vh;
+    background-color: grey;
     position: absolute;
     bottom: 0;
     left: 0;
