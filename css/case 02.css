@@ -1,0 +1,39 @@
+body{
+    overflow: hidden;
+}
+
+body>div:first-child{
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body>div:nth-child(2){
+    width: 20vw;
+    height: 70vh;
+    background-color: blue;
+    position: absolute;
+    top: 104px;
+    left: 0;
+}
+
+body>div:nth-child(3){
+    width: 80vw;
+    height: 70vh;
+    background-color: green;
+    position: absolute;
+    top: 104px;
+    right: 0;
+}
+
+body>div:nth-child(4){
+    width: 100vw;
+    height: 16vh;
+    background-color: deeppink;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
