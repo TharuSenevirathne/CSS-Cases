@@ -1,8 +1,8 @@
-body>div:first-child{
+body>div{
     background-color: grey;
     width: 50%;
     aspect-ratio: 1/1;
-    border-radius: 200px;
+    border-radius: 500px;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -15,7 +15,7 @@ body>div>div{
     background-color: red;
     width: 45%;
     aspect-ratio: 1/1;
-    border-radius: 200px;
+    border-radius: 500px;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -24,11 +24,11 @@ body>div>div{
     margin: auto;
 }
 
-body>div>div>div{
+body>div>div>div:first-child{
     background-color: purple;
     width: 80%;
     aspect-ratio: 1/1;
-    border-radius: 200px;
+    border-radius: 500px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -37,6 +37,52 @@ body>div>div>div{
     margin: auto;
 }
 
-body>div>div>div>div{
+body>div>div>div:first-child>div{
+    top: 110px;
+    left: 0;
+    color: white;
     text-align: center;
+    position: relative;
+}
+
+body>div>div>div:nth-child(2){
+    background-color: #0b75ae;
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body>div>div>div:nth-child(2)>div{
+    top: 110px;
+    left: 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+body>div>div>div:nth-child(3){
+    background-color: #ea2b51;
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body>div>div>div:nth-child(3)>div{
+    top: 110px;
+    left: 0;
+    color: white;
+    text-align: center;
+    position: relative;
 }
