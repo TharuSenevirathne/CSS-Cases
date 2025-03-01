@@ -29,10 +29,19 @@ body>div:nth-child(3){
     left: 0;
 }
 
+body>div:nth-child(3)>div{
+    top: 0px;
+    left: 0;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+
 body>div:nth-child(4){
     width: 80vw;
     height: 80vh;
-    background-color: green;
+    background-color: white;
     position: absolute;
     top: 104px;
     right: 0;
@@ -45,4 +54,12 @@ body>div:nth-child(5){
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+body>div:nth-child(5)>div{
+    top: 0px;
+    left: 0;
+    color: black;
+    text-align: center;
+    position: relative;
 }
